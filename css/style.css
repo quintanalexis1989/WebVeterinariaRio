@@ -930,7 +930,15 @@ form.left_form {
   float: left;
   width: 49%;
 }
+div.left_form {
+  float: left;
+  width: 49%;
+}
 form.right_form {
+  float: right;
+  width: 49%;
+}
+div.right_form {
   float: right;
   width: 49%;
 }

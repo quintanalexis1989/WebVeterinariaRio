@@ -701,31 +701,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		        <div class="container">
 		        	<h3 class="tittle">Contactanos</h3>
 			         <div class="contact-form">
-				  	   <form class="left_form">
-					    	<div>
-						    	<span><label>NOMBRE</label></span>
-						    	<span><input name="userName" type="text" class="textbox"></span>
+				  	   	<form method="Post" action="envioMail.php">
+				  	   		<div class="left_form">
+						    	<div>
+							    	<span><label>NOMBRE</label></span>
+							    	<span><input name="userName" type="text" class="textbox"></span>
+							    </div>
+							    <div>
+							    	<span><label>E-MAIL</label></span>
+							    	<span><input name="userEmail" type="text" class="textbox"></span>
+							    </div>
+							    <div>
+							     	<span><label>TELEFONO</label></span>
+							    	<span><input name="userPhone" type="text" class="textbox"></span>
+							    </div>
 						    </div>
-						    <div>
-						    	<span><label>E-MAIL</label></span>
-						    	<span><input name="userEmail" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						     	<span><label>TELEFONO</label></span>
-						    	<span><input name="userPhone" type="text" class="textbox"></span>
-						    </div>
-					    </form>
-					    <form class="right_form">
-					        <div>					    	
-						    	<span><label>ASUNTO</label></span>
-						    	<span><textarea name="userMsg"> </textarea></span>
-						    </div>
-						   <div>
-						   		<input type="submit" value="ENVIAR " />
-						  </div>
+					        <div class="right_form">	
+					        	<div>				    	
+							    	<span><label>ASUNTO</label></span>
+							    	<span><textarea name="userMsg"> </textarea></span>
+						    	</div>
+						   		<div>
+						   			<input type="submit" value="ENVIAR " />
+						   		</div>
+						  	</div>
 					    </form>
 					    <div class="clearfix"></div>
-				  </div>
+				  	</div>
 				  </div>
 			</div>
 
