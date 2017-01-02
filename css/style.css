@@ -1187,7 +1187,8 @@ color: #FF8DAE;
 		margin: 1.5em 0 0 0.3em;
 	}
 }
-@media (max-width:991px){
+/*@media (max-width:991px){*/
+@media (max-width:1920px){
 	.header-right {
 		float: left;
 		padding: 1.3em 0.5em;

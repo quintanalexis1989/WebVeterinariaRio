@@ -25,6 +25,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
 				});
+
+				$("#Enviar").click(function(e){
+					e.preventDefault();
+					$.ajax({
+						type: 'POST',
+						url: 'envioMail.php',
+						data: $('form').serialize(),
+						success: function() {
+							$("#lblMsg").style.display = 'block';
+						},
+						error: function() {
+							$("#lblMsg").style.display = 'block';
+						} 
+					});
+				});
 			});
 </script>
 <!-- <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
@@ -807,11 +822,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							    	<span><textarea name="userMsg"> </textarea></span>
 						    	</div>
 						   		<div>
-						   			<input type="submit" value="ENVIAR " />
+						   			<input type="button" id="Enviar" value="ENVIAR " />
 						   		</div>
 						  	</div>
 					    </form>
 					    <div class="clearfix"></div>
+					    <label id="lblMsg" style="display:none">Probando</label>
 				  	</div>
 				  </div>
 			</div>
