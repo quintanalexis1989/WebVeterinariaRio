@@ -968,7 +968,7 @@ label {
   resize: none;
   margin: 0em 0 0.5em 0;
 }
-.contact-form input[type="submit"] {
+.contact-form input[type="button"] {
       outline: none;
     padding: 0.7em 1em;
     color: #fff;
@@ -981,7 +981,7 @@ label {
     border: none;
     float: right;
 }
-.contact-form input[type="submit"]:hover {
+.contact-form input[type="button"]:hover {
   text-decoration: none;
   background:#404359;
 }
@@ -1282,7 +1282,7 @@ color: #FF8DAE;
 		width: 84%;
 		margin: 0.5em auto 0;
 	}
-	.contact-form input[type="submit"] {
+	.contact-form input[type="button"] {
     padding: 0.7em 1em;
     font-size: 1em;
     width: 31%;
@@ -1427,7 +1427,7 @@ color: #FF8DAE;
 		width: 84%;
 		margin: 0.5em auto 0;
 	}
-	.contact-form input[type="submit"] {
+	.contact-form input[type="button"] {
     padding: 0.7em 1em;
     font-size: 1em;
     width: 31%;
@@ -2064,7 +2064,7 @@ color: #FF8DAE;
     padding: 1em 1em;
     min-height: 308px;
 	}
-	.contact-form input[type="submit"] {
+	.contact-form input[type="button"] {
 		padding: 0.6em 1em;
 		font-size: 1em;
 		width: 34%;
