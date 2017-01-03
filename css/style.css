@@ -505,7 +505,8 @@ p.location i, p.mail i, p.phone i {
 	text-align:center;
 }
 .about-serv{
-  margin-left: 38%;
+  /*margin-left: 38%;*/
+  margin-left: 15%;
   text-align:left;
 }
 .about-top{
@@ -1187,8 +1188,10 @@ color: #FF8DAE;
 		margin: 1.5em 0 0 0.3em;
 	}
 }
-/*@media (max-width:991px){*/
-@media (max-width:1920px){
+
+@media (max-width:991px){
+/*prueba por resolucion mayor a   */
+/*@media (max-width:1920px){*/
 	.header-right {
 		float: left;
 		padding: 1.3em 0.5em;
@@ -2193,4 +2196,8 @@ a.dogs-top-food:hover {
   margin: 0 auto;
   line-height: 1.5em;
   padding-bottom: 1em;
+}
+
+.instalaciones {
+  margin-top: 30px;
 }
