@@ -24,6 +24,10 @@ body a,.grid_1,plan_1,plan_1.one,plan_1.two,i.icon1, i.icon2, i.icon3, i.icon4, 
    font-family: 'Raleway-Regular';
    src: url(../fonts/Raleway-Regular.ttf)format('truetype');
 }
+@font-face {
+   font-family: 'ifkgeapagodebold';
+   src: url(../fonts/ifkgeapagodebold.ttf)format('truetype');
+}
 a:hover{
  text-decoration:none;
 }
@@ -36,9 +40,19 @@ input[type="button"],input[type="submit"],li.parallelogram{
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;
+    
    font-family: 'PoiretOne-Regular';
     font-weight: 400;
-}	
+}
+
+h3,h1{
+  font-family: 'ifkgeapagodebold';
+
+}
+
+h1{
+  font-size: 1.6em;
+  }
 p{
 	margin:0;
 	/*font-family:'Raleway-Regular';*/
@@ -564,10 +578,11 @@ p.location i, p.mail i, p.phone i {
     padding: 5em 0;
 }
 h3.tittle {
-      font-size: 3.5em;
+
+    font-size: 3.5em;
     text-align: center;
     margin-bottom: 1em;
-	    color: #404359;
+	    color: #02934A;
 }
 .grid {
 	position: relative;
@@ -1648,8 +1663,9 @@ color: #FF8DAE;
       padding: 4em 0 17em 0;
 	}
 	#about h2 {
-		font-size: 3em;
+		 font-size: 3em;
 	}
+
 	.top-nav {
 		float: left;
 	    margin: 12px 0 0.8em 0;
@@ -2200,4 +2216,9 @@ a.dogs-top-food:hover {
 
 .instalaciones {
   margin-top: 30px;
+}
+
+h3{
+text-decoration-color: #988221; 
+color: #988221;
 }
