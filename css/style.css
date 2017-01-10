@@ -987,7 +987,7 @@ label {
       outline: none;
     padding: 0.7em 1em;
     color: #fff;
-    background: #FF8DAE;
+    background: #088A29;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 1em;
@@ -998,7 +998,7 @@ label {
 }
 .contact-form input[type="button"]:hover {
   text-decoration: none;
-  background:#404359;
+  background:#0B3B17;
 }
 .contact-form {
   padding: 3em 0 1em 0;
@@ -2216,6 +2216,26 @@ a.dogs-top-food:hover {
 
 .instalaciones {
   margin-top: 30px;
+}
+
+.exitoMail {
+  outline: none;
+  color: #088A29;
+  font-weight: 400;
+  font-size: 1.2em;
+  display: block;
+  width: 70%;
+  border: none;
+}
+
+.errorMail {
+  outline: none;
+  color: #FE2E2E;
+  font-weight: 400;
+  font-size: 1.2em;
+  display: block;
+  width: 70%;
+  border: none;
 }
 
 h3{

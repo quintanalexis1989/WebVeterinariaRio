@@ -39,10 +39,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						url: 'envioMail.php',
 						data: $('form').serialize(),
 						success: function() {
-							$("#lblMsg").style.display = 'block';
+							$("#lblMsg")[0].style.display = 'block';
+							$("#lblMsg").addClass("exitoMail");
+							$("#lblMsg")[0].innerText = "El correo ha sido enviado correctamente";
+							jQuery("#lblMsg").fadeOut(4000);
 						},
 						error: function() {
-							$("#lblMsg").style.display = 'block';
+							$("#lblMsg")[0].style.display = 'block';
+							$("#lblMsg").addClass("errorMail");
+							$("#lblMsg")[0].innerText = "Ocurrio un error al enviar el correo. Reintente mas tarde";
+							jQuery("#lblMsg").fadeOut(4000);
 						} 
 					});
 				});
@@ -599,7 +605,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					 <div class="col-md-6 l-grids">
 						<figure class="effect-bubba">
-							<a href="prueba2.html">
+							<a href="prod_descanso.html">
 								<img src="images/g4.jpg" alt=""/>
 								<figcaption>
 									<h4>Descanso</h4>
@@ -610,7 +616,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					 <div class="col-md-6 l-grids">
 						<figure class="effect-bubba">
-							<a href="prueba3.html">
+							<a href="prod_aseo.html">
 								<img src="images/g2.jpg" alt=""/>
 								<figcaption>
 									<h4>Aseo</h4>
@@ -858,13 +864,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							    	<span><label>ASUNTO</label></span>
 							    	<span><textarea name="userMsg"> </textarea></span>
 						    	</div>
-						   		<div>
+						    	<div>
+						    		<label id="lblMsg" style="display:none"></label>
+						    	</div>
+						   		<div>						   			
 						   			<input type="button" id="Enviar" value="ENVIAR " />
 						   		</div>
 						  	</div>
 					    </form>
-					    <div class="clearfix"></div>
-					    <label id="lblMsg" style="display:none">Probando</label>
+					    <div class="clearfix"></div>					    
 				  	</div>
 				  </div>
 			</div>
