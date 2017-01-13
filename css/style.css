@@ -529,7 +529,7 @@ p.location i, p.mail i, p.phone i {
 .about-bottom p{
  line-height: 1.9em;
   color: #777;
-  font-size:0.9em;
+  font-size:1.1em;
 }
 /*.about-bottom p:nth-child(2){
 	width:90%;
@@ -2236,6 +2236,10 @@ a.dogs-top-food:hover {
   display: block;
   width: 70%;
   border: none;
+}
+
+.galSencilla {
+  margin-bottom: 50px;
 }
 
 h3{
