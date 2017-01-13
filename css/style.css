@@ -2252,6 +2252,14 @@ a.dogs-top-food:hover {
   border: none;
 }
 
+.errorForm {
+  border:2px solid red!important;
+}
+
+.okForm {
+  border: 1px solid #ddd;
+}
+
 .galSencilla {
   margin-bottom: 50px;
 }
