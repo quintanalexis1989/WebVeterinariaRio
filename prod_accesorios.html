@@ -61,7 +61,7 @@
                             <span class="menu"> </span>
                             <ul class="cl-effect-16">
                                 <li></li>
-                                <li><a href="javascript:history.go(-1)"><img src="images/move-back.png">  VOLVER</a></li>
+                                <!-- <li><a href="javascript:history.go(-1)"><img src="images/move-back.png">  VOLVER</a></li> -->
                             </ul>                   
                         </div>
                     </div>
@@ -693,6 +693,18 @@
 
             <!-- Bootstrap Core JavaScript -->
             <script src="js/bootstrap.min.js"></script>
+
+            <!-- <script type="text/javascript">
+            $(window).scroll(function () {
+               if ($(this).scrollTop() > 0) {
+                   $('.scroll').fadeIn();
+               } else {
+                   $('.scroll').fadeOut();
+               }
+           });
+        </script> -->
+
+        <a href="javascript:history.go(-1)" id="toBack" class="scroll" style="display: block;"></a>
 
         </body>
 
