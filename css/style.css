@@ -754,7 +754,8 @@ border-radius: 100%;
 .team-img p {
   display:none;
     color: #777;
-    font-size: 0.85em;
+    /*font-size: 0.85em;*/
+    font-size: 1.10em;
     line-height: 1.8em;
     margin-top: 7px;
 }
