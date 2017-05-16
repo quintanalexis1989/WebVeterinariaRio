@@ -5,7 +5,7 @@
 	$telefono = $_POST['userPhone'];
 	$mensaje = "Mensaje enviado por $nombre:\n\n" . $_POST['userMsg'] . "\n\n Tel. de $nombre: " . $telefono;
 
-	$emailTo = 'root@localhost.com'; //Correo de recepcion de la veterinaria.
+	$emailTo = 'info@veterinariario.com.uy'; //Correo de recepcion de la veterinaria.
 	$asunto = 'Mensaje enviado desde la Web - Veterinaria Rio';
 	$headers = "From: $emailFrom \r\n";
 
